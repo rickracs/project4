@@ -44,7 +44,7 @@ img {
     clear:right;
 }
 
-#img-dickens {
+#img-dickens, #img-christie {
     float:left;
     clear:left;
 }
@@ -77,10 +77,26 @@ img {
 }
 
 .main-section {
-    border-bottom: solid black 1px;
+   /* border-bottom: double black 3px;*/
     padding-left:10px;
     overflow:auto;
     background: #d4ac6e;
+    
+}
+
+.border {
+   background: #d4ac6e;
+   padding:0;
+   margin:0;
+    border-width: 20px 0 20px 0;
+  border-style:solid;
+  border-image: url(./media/border.png) 40 0 40 0 repeat;
+  -webkit-border-image: url(./media/border.png)  40 0 40 0 repeat;
+  -moz-border-image:  url(./media/border.png)  40 0 40 0 repeat;
+  border-image-slice: 40 0 40 0 fill;
+  border-image-width: 20 0 20 0;
+  width: 100%;
+  height: 60px;
 }
 
 #navbar ul {
@@ -120,7 +136,7 @@ a.anchor {
 @media (max-width: 480px) {
   
 	#navbar {
-        height:105px;
+        height:90px;
 		width: 100%;
 		margin: 0;
 		padding: 0;
@@ -150,10 +166,10 @@ a.anchor {
     }
    #main-doc {
         margin-left: 0;
-       margin-top: 105px;
+       margin-top: 90px;
     }
     a.anchor {
-        top: -110px;      
+        top: -95px;      
     }
    
 }
