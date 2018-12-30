@@ -17,7 +17,11 @@ p {
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
-
+code {
+    
+    font-style: italic;
+   
+}
 h3 {
     padding-top:1em;
 }
@@ -25,12 +29,13 @@ h3 {
     border:solid #bbab9b 1px;
     width:auto;
     margin: 5px;
+    margin-top:1em;
     background:white;
    
 }
 img {
     padding: 3px 3px 0 3px;
-    width:150px;
+    width:170px;
 }
 
 .img-caption {
@@ -39,12 +44,12 @@ img {
     padding-bottom:3px;
 }
 
-#img-poe, #img-doyle {
+.img-right {
     float:right;
     clear:right;
 }
 
-#img-dickens, #img-christie {
+.img-left {
     float:left;
     clear:left;
 }
