@@ -141,6 +141,10 @@ a.anchor {
         border-right: solid black 1px;
         border-bottom: none;
         
+        
+    }
+    #navbar li {
+        width:20%;
     }
     #navbar li:last-child a {
         
