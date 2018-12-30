@@ -7,7 +7,7 @@
 
 
 .container {
-    border: solid red 3px;
+    
     display:flex;
     height:auto;
 }
@@ -22,10 +22,10 @@ h3 {
     padding-top:1em;
 }
 .img-div {
-    border:solid grey 1px;
+    border:solid #bbab9b 1px;
     width:auto;
     margin: 5px;
-
+    background:white;
    
 }
 img {
@@ -62,7 +62,8 @@ img {
     left:0;
     right:0;
     bottom:0;
-    background: lightgray;
+    background:#4f3222;
+    color: white;
 }
 #classic-features {
     padding-left:20%;
@@ -70,36 +71,39 @@ img {
   
 }
 #main-doc {
-    border: solid green 3px;
+    
     margin-left: 220px;
     flex: 1; 
 }
 
 .main-section {
-    border: solid blue 3px;
+    border-bottom: solid black 1px;
     padding-left:10px;
     overflow:auto;
+    background: #d4ac6e;
 }
 
 #navbar ul {
-    font-size: 18px;
+    font-size: 14px;
     list-style-type: none;
     margin: 0;
   padding: 0;
   border: solid black 1px;
 }
 li a {
+    text-transform: uppercase;
     text-decoration: none;
     display:block;
-    height:60px;
+    height:55px;
     padding: 8px 16px;
     border-bottom: solid black 1px;
     text-align:center;
+    color:white;
    
 }
 
 li a:hover {
-    background: yellow;
+    background:#8b6f47;
 }
 
 #navbar li:last-child a{
@@ -116,7 +120,7 @@ a.anchor {
 @media (max-width: 768px) {
   
 	#navbar {
-        height:100px;
+        height:105px;
 		width: 100%;
 		margin: 0;
 		padding: 0;
@@ -128,6 +132,7 @@ a.anchor {
     }
     #navbar ul {
         display: flex;
+        overflow:hidden;
     }
     #navbar li a{
         padding-right: 8px;
@@ -135,6 +140,7 @@ a.anchor {
         height:70px;
         border-right: solid black 1px;
         border-bottom: none;
+        
     }
     #navbar li:last-child a {
         
@@ -142,10 +148,10 @@ a.anchor {
     }
    #main-doc {
         margin-left: 0;
-       margin-top: 100px;
+       margin-top: 105px;
     }
     a.anchor {
-        top: -105px;      
+        top: -110px;      
     }
    
 }
