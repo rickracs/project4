@@ -135,12 +135,12 @@ a.anchor {
         overflow:hidden;
     }
     #navbar li a{
-        padding-right: 8px;
-        padding-left: 8px;
+        padding-right: 4px;
+        padding-left: 4px;
         height:70px;
         border-right: solid black 1px;
         border-bottom: none;
-        font-size: 8px;
+        font-size: 10px;
         
     }
   
