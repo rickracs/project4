@@ -117,7 +117,7 @@ a.anchor {
     visibility: hidden;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 480px) {
   
 	#navbar {
         height:105px;
@@ -140,12 +140,10 @@ a.anchor {
         height:70px;
         border-right: solid black 1px;
         border-bottom: none;
-        
+        font-size: 12px;
         
     }
-    #navbar li {
-        width:20%;
-    }
+  
     #navbar li:last-child a {
         
         border-right: none;
