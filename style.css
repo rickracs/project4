@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: sans-serif, arial;
+    font-family:'Merienda', cursive, sans-serif;
 }
 
 
@@ -51,7 +51,7 @@ img {
 
 #navbar {
    
-    width: 200px;
+    width: 220px;
     height:100%; 
    position: fixed;
     text-align: center;
@@ -71,7 +71,7 @@ img {
 }
 #main-doc {
     border: solid green 3px;
-    margin-left: 200px;
+    margin-left: 220px;
     flex: 1; 
 }
 
@@ -91,11 +91,11 @@ img {
 li a {
     text-decoration: none;
     display:block;
-    height:50px;
+    height:60px;
     padding: 8px 16px;
     border-bottom: solid black 1px;
     text-align:center;
-    height:50px;
+   
 }
 
 li a:hover {
