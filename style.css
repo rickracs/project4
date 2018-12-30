@@ -94,8 +94,8 @@ li a {
     text-transform: uppercase;
     text-decoration: none;
     display:block;
-    height:55px;
-    padding: 8px 16px;
+    height:45px;
+    padding: 4px 15px 4px 15px;
     border-bottom: solid black 1px;
     text-align:center;
     color:white;
