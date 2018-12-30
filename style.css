@@ -117,7 +117,7 @@ a.anchor {
     visibility: hidden;
 }
 
-@media (max-width: 1081px) {
+@media (max-width: 1200px) {
   
 	#navbar {
         height:105px;
